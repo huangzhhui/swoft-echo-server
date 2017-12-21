@@ -10,10 +10,6 @@ return [
         'class' => \Swoft\Service\ServicePacker::class,
         'type'  => 'json',
     ],
-    'consulProvider'    => [
-        'class'   => \Swoft\Service\ConsulProvider::class,
-        'address' => '127.0.0.1:80',
-    ],
     "userPool"          => [
         "class"           => \Swoft\Pool\ServicePool::class,
         "uri"             => [
