@@ -5,6 +5,7 @@ namespace App\Controllers;
 use Swoft\Bean\Annotation\Controller;
 use Swoft\Bean\Annotation\RequestMapping;
 use Swoft\Web\Request;
+use Swoft\Bean\Annotation\RequestMethod;
 
 /**
  * Class IndexController
@@ -16,7 +17,7 @@ class IndexController
 {
 
     /**
-     * @RequestMapping()
+     * @RequestMapping(route="/", method={RequestMethod::GET, RequestMethod::POST, RequestMethod::PUT, RequestMethod::DELETE, RequestMethod::PATCH})
      * @param \Swoft\Web\Request $request
      * @return array
      */
