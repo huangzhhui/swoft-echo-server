@@ -17,7 +17,7 @@ class IndexController
 {
 
     /**
-     * @RequestMapping(route="/", method={RequestMethod::GET, RequestMethod::POST, RequestMethod::PUT, RequestMethod::DELETE, RequestMethod::PATCH})
+     * @RequestMapping()
      * @param \Swoft\Web\Request $request
      * @return array
      */
