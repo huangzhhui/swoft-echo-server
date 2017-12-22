@@ -41,7 +41,7 @@ class IndexController
             'uri' => [
                 'scheme' => $request->getUri()->getScheme(),
                 'userInfo' => $request->getUri()->getUserInfo(),
-                'host' => $request->getUri()->getPort(),
+                'host' => $request->getUri()->getHost(),
                 'port' => $request->getUri()->getPort(),
                 'path' => $request->getUri()->getPath(),
                 'query' => $request->getUri()->getQuery(),
