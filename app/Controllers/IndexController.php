@@ -5,7 +5,6 @@ namespace App\Controllers;
 use Swoft\Bean\Annotation\Controller;
 use Swoft\Bean\Annotation\RequestMapping;
 use Swoft\Web\Request;
-use Swoft\Bean\Annotation\RequestMethod;
 
 /**
  * Class IndexController
